@@ -4,7 +4,13 @@ Project Title: Rob's Full Stack Bad Bank!
 
 Description/Motivation: This project was created as part of the MIT xPro Professional Certificate in Coding: Full Stack Development with MERN. I previously created a "Bad Bank," but it was only a front end application. This is now full-stack. It allows users to create accounts at this bank, login, make deposits, make withdrawls, view your balance, and even view all user's data. However, authentication will be added at a later date, intended as my capstone project. 
 
-Installation Guidelines: Clear instructions on how to get your project up and running (e.g., git clone, git pull, npm init).
+Installation Guidelines: 
+1) download the repository 
+npm init
+npm install express
+npm install mongodb
+docker run -p 27017:27017 --name badbank -d mongo
+node index.js
 
 Screenshots: Screenshots or a GIF of your project in action.
 
