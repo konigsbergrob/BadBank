@@ -4,10 +4,10 @@ Project Title:
 Rob's Full Stack Bad Bank!
 
 Description/Motivation: 
-This project was created as part of the MIT xPro Professional Certificate in Coding: Full Stack Development with MERN. I previously created a "Bad Bank," but it was only a front end application. This is now full-stack. It allows users to create accounts at this bank, login, make deposits, make withdrawls, view your balance, and even view all user's data. However, authentication will be added at a later date, intended as my capstone project. 
+This project was created as part of the MIT xPro Professional Certificate in Coding: Full Stack Development with MERN. I previously created a "Bad Bank," but it was only a front end application. This is now full-stack. It allows users to create accounts at this bank, login, make deposits, make withdrawls, view your balance, and even view all user's data. However, authentication will be added at a later date, intended as my capstone project. It's intended as an exercise to develop a full stack functioning bank application
 
 Installation Guidelines: 
-1) Download my repository
+1) Download my repository and set it up in a directory (however you find easiest to do so, such as downloading as a zip or git clone) 
 2) Setup your machine properly. Start with running "npm init" then "npm install express" and "npm install mongodb" 
 3) Setup a container for the database (NOTE: you will need Docker desktop installed and setup). Run "docker run -p 27017:27017 --name badbank -d mongo"
    NOTE: this will setup the database side of the application (port 27017). If you run it multiple times, you'll need to delete the first instance. 
